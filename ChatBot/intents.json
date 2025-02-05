@@ -1,0 +1,29 @@
+{
+    "intents": [
+        {
+            "tag": "greetings",
+            "patterns":["hello","hey","hi","good day","Greetings","What's up?","how it is going?"],
+            "responses":["Hello","Hey","What can i do for you?"]
+        },
+        {
+            "tag": "goodbye",
+            "patterns":["how old","how old is you","what is your age?","how old are you?","age?","what your owner age?"],
+            "responses":["My owner is 20 years old","20 years"]
+        },
+        {
+            "tag": "name",
+            "patterns":["what is your name","what should i call you?","what your name?","who are you?","Can you tell me your name?"],
+            "responses":["You can call me Chatbot","I am Chatbot","I'm Chatbot developed by Sahil"]
+        },
+        {
+            "tag": "music",
+            "patterns":["Id like to hear something","what do you recommend","Give some funky music"],
+            "responses":["Baby from Justin Bieber","Navin popat from Anand Shinde","Malhari from Vishal Dadlani"]
+        },
+        {
+            "tag": "Hours",
+            "patterns":["when are you guys open?","what are your hours","hours of operations"],
+            "responses":["24/7"]
+        }
+    ]
+}
